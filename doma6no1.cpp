@@ -22,10 +22,14 @@ int main()
 			}
 			a[9] = -1;
 			i--;
+			count--;
 		}
 	}	
 	for (int i = 0; i < count; i++) {
 		cout << a[i] << " ";
+	}
+	for (;count < 10;count++) {
+		cout << -1 << " ";
 	}
 	cout << endl;
 

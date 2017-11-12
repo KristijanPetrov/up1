@@ -20,7 +20,7 @@ int main()
 			for (;index < count - 1;index++) {
 				a[index] = a[index + 1];	
 			}
-			//или a[9] = -1;  без count-- и последния for
+			//или a[9] = -1;  без count-- и последния for, но прави пробле за x = -1
 			i--;
 			count--;
 		}
